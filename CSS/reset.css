@@ -1,0 +1,55 @@
+#container{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+*{
+    
+    
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+
+
+/* COPEN */
+
+
+h2{
+    font-weight: 800;
+}
+th{
+   
+    font-size: 20px;
+     color: #3a6186;
+     font-weight: 900;
+ }
+ #btn {
+    width: 130px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #3a6186, #89253e);
+    color: white;
+    font-size: 120%;
+    box-shadow: 0 5px 2px #999;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.08s;
+  }
+  #btn:active {
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px);
+  }
+  
+  :root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+  }
+  

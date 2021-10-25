@@ -1,0 +1,229 @@
+/* hero media query */
+/* 900px */
+@media only screen and (max-width: 1000px) {
+  /* hero */
+  .about_foto img{
+    width: 250px;
+}
+  
+  /* About */
+  .quotes_container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quote {
+    margin: 20px;
+    width: 90%;
+  }
+  .text_foto_container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .about_foto {
+    padding: 0 20px 50px 20px;
+  }
+  .about_text {
+    width: 400px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    
+  }
+    /* kennis en vaard.. */
+    .kennis_container{
+          height: auto;
+          width: 100%;
+    }
+    .kennis, .tools, .vaardigheden{
+        width: 30%;
+        height: 350px;
+    }
+    .kennis_container h3{
+        font-size: 17px;
+        color: #3a6186;
+        font-weight: 700;
+    }
+      /* projects */
+      .project_1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px;
+    }
+    .project_1 img{
+        width: 250px;
+    }
+    .project_1_presentation{
+        height: 350px;
+    }
+    .project_1_presentation h3{
+        font-size: 19px;
+        
+    }
+    
+    .project_1_presentation p{
+        width: 100%;
+        font-size: 15px;
+    
+    }
+    #btn {
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+        background: linear-gradient(to right, #3a6186, #89253e);
+        font-size: 90%;
+    }
+    /* Contact */
+    .contatct_container{
+      
+        width: 90%;
+    }
+    /* footer */
+    .footer p{
+        font-size: 15px;
+    }
+    /* projects pagina */
+    .project{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+    }
+    .project img{
+        width: 250px;
+    }
+    .project_01_presentation{
+        height: auto;
+        width: 60%;
+    }
+    .project_01_presentation h3{
+        font-size: 19px;
+        
+    }
+    
+    .project_01_presentation p{
+        width: 100%;
+        font-size: 13px;
+        height: auto;
+    
+    }
+    
+ 
+
+
+}
+/* 720px */
+@media only screen and (max-width: 720px) {
+  /* hero */
+  .hero_section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .hero_text {
+    padding-top: 50px;
+  }
+  .about_foto img{
+    width: 210px;
+}
+  /* about me */
+  
+
+  /* kennis en vaard.. */
+  .kennis_container{
+      height: auto;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+}
+    .kennis, .tools, .vaardigheden{
+        width: 80%;
+        height: 350px;
+        margin-top: 20px;
+
+    }
+    .kennis_container h3{
+        font-size: 17px;
+        color: #3a6186;
+        font-weight: 700;
+    }
+/* projects */
+
+.project_1{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.project_1 img{
+    width: 240px;
+}
+.project_1_presentation{
+    height: 100%;
+    width: 90%;
+    margin: 20px;
+}
+.contatct_container{
+      
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+/* contact */
+.form_container, .map{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    
+}
+/* footer */
+.footer p{
+    font-size: 12px;
+}
+/* projects pagina*/
+
+.project{
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.project img{
+    width: 240px;
+}
+.project_01_presentation{
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+}
+
+
+
+    
+}
+   
+/* 400px */
+@media only screen and (max-width: 400px) {
+  /* hero */
+  
+  .za_text{
+      font-size: 30px;
+  }
+  .hello{
+      font-size: 15px;
+  }
+  /* about */
+  .title{
+    font-size: 27px;
+  }
+  .about_text {
+    width: 300px;
+  }
+  .footer p{
+    font-size: 10px;
+}
+}

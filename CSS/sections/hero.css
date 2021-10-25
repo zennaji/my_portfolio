@@ -1,0 +1,108 @@
+/* hero css */
+.hero_section{
+margin: 200px 0;
+padding-bottom: 100px;
+display: flex;
+justify-content: space-around;
+height: auto;
+}
+.hello{
+    color:#3a6186 ;
+}
+.za_text{
+    font-weight: 900;
+    color:#89253e ;
+   position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+    
+}
+@keyframes example {
+    from {color:#89253e ;}
+    to {color: #3a6186; }
+  }
+
+
+
+
+
+
+/* Abou me css */
+.about_container{
+    background: linear-gradient(to right, #3a6186, #89253e);
+    display: flex;
+    pointer-events: none;
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+    
+}
+.title {
+    text-align: center;
+    margin: 40px;
+    color: #89253e;
+    font-weight: 800;
+}
+
+.text_foto_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+
+}
+.about_text{
+    width: 600px;
+    background-color: #00000009;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    box-shadow: 5px 10px 10px #00000009;
+
+}
+.about_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_foto img{
+    border: 2px white solid;
+    border-radius: 50%;
+    width: 300px;
+}
+
+.quotes_container{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-self: center;
+}
+.quote{
+    background-color: rgba(255, 255, 255, 0.274);
+    color: white;
+    font-size: 12px;
+    width: 25%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 5px 10px 10px #0000002f;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+/* css menu */
+
+#logo {
+    
+    padding-left: 45px;
+   
+}
+.menu-item
+{
+    color: #ec2f4b;
+    font-size: 17px ;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #89253e;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;    
+}
+.na{
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    margin: 0 auto;
+}
+.na1{
+    background-color: rgb(0, 0, 0);
+}

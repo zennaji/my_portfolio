@@ -1,0 +1,53 @@
+/* css van projects pagina */
+.title_prj {
+    text-align: center;
+    margin-top: 100px;
+    color: #89253e;
+    font-weight: 800;
+}
+.mini_title_prj{
+    text-align: center;
+    font-size: 14px;
+    color: #3a6186;
+}
+.projects_section{
+    margin-top: 100px;
+  }
+  .project{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    margin: 40px;
+    height: auto;
+    
+  }
+  .project_01_presentation{
+    background-color: rgb(255, 255, 255);
+      border-radius: 12px;
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+      height: auto;  
+      box-shadow: 0px 0px 10px 1px rgba(14, 11, 11, 0.233);
+
+  }
+  .project_01_presentation h3{
+    font-size: 20px;
+      color: #3a6186;
+      font-weight: 700;
+  }
+  
+  .project_01_presentation p{
+    width: 80%;
+    text-align: center;
+    line-height: 35px;
+  
+  }
+  .project img{
+      width: 300px;
+  }
+  

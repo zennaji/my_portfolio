@@ -1,0 +1,47 @@
+/* kennis en vaardigheden */
+.kennis_container{
+    margin : 0 auto;
+      height: auto;
+      width: 95%;
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+    
+    }
+    .kennis, .tools, .vaardigheden{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 25%;
+      height: 350px;
+    }
+    .kennis_text, .tools_imgs, .vaard_imgs{
+      background-color: rgb(255, 255, 255);
+      padding: 30px;
+      height: 100%;
+      margin-top: 5px;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0px 0px 10px   rgba(190, 189, 189, 0.521);
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20%;
+      grid-template-rows: 110px  ; 
+      column-gap: 10px;
+      row-gap: 15px;
+      justify-items: center;
+      align-items: center;
+    }
+    .kennis_container h3{
+      font-size: 20px;
+      color: #3a6186;
+      font-weight: 700;
+    }
+    .kennis_text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .tools_imgs img, .vaard_imgs img{
+      width: 50px;
+    }
+    
